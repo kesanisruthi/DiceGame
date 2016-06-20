@@ -64,9 +64,19 @@ public class DiceGame {
 		}
 		return points;
 	}
+	
+	public int fetchscore(int[] input){
+		for(int i=0;i<input.length;i++){
+			System.out.println(input[i]);
+			checkCount(input[i]);
+		}
+		int points=calculatePoints();
+		System.out.println("The points is "+points);
+		return points;
+	}
 
 	public static void main(String[] args) {
-		int input[]={1,2,3,4,5};
+		int input[]={1,1,1,2,2};
 		for(int i=0;i<input.length;i++){
 			System.out.println(input[i]);
 			checkCount(input[i]);

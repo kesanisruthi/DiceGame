@@ -66,8 +66,14 @@ public class DiceGame {
 	}
 
 	public static void main(String[] args) {
-		int input[]={5,4,0,4,5};
-		
+		int input[]={1,2,3,4,5};
+		for(int i=0;i<input.length;i++){
+			System.out.println(input[i]);
+			checkCount(input[i]);
+		}
+		int points=calculatePoints();
+		System.out.println("The points is "+points);
+
 
 	}
 

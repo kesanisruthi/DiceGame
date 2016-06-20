@@ -67,6 +67,7 @@ public class DiceGame {
 
 	public static void main(String[] args) {
 		int input[]={5,4,0,4,5};
+		
 
 	}
 
